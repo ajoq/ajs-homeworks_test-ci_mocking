@@ -1,0 +1,43 @@
+{
+  "name": "mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajoq/ajs-homeworks_test-ci_mocking.git"
+  },
+  "author": "Konstantin Beloglazov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajoq/ajs-homeworks_test-ci_mocking/issues"
+  },
+  "homepage": "https://github.com/ajoq/ajs-homeworks_test-ci_mocking#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "html-loader": "^3.0.0",
+    "html-webpack-plugin": "^5.4.0",
+    "jest": "^27.3.1",
+    "mini-css-extract-plugin": "^2.4.3",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "core-js": "^3.18.3"
+  }
+}
